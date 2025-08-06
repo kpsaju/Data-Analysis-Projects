@@ -14,7 +14,7 @@ The company faces difficulties in:
 - Tracking monthly and yearly performance
 
 ## 🛠️ Tools Used
-- **SQL** – For basic querying and initial data exploration
+- **MySQL Workbench** – For querying and exploring the `db_dump.sql` sales dataset
 - **Power BI** – 
   - **Power Query**: For data cleaning and transformation  
   - **Data Model**: Relationships and calculations (DAX)  
