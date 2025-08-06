@@ -1,6 +1,5 @@
-# Sales Insights – Atliq Hardware
-
-This project delivers actionable insights into the sales performance of **Atliq Hardware**, addressing concerns around declining sales and lack of visibility into key metrics.
+# Sales Insights
+This project delivers actionable insights into the sales performance, addressing concerns around declining sales and lack of visibility into key metrics.
 By leveraging SQL for data exploration and Power BI for visualization, this analysis helps identify revenue patterns, high-performing customers/products, and underperforming markets.
 
 # Key Objectives
