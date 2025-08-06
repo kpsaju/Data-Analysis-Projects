@@ -89,7 +89,7 @@ MySQL Workbench – For querying and exploring structured sales data
 
 - **Power Query: Data transformation**
 
-- ** DAX: KPI calculations**
+- **DAX: KPI calculations**
 
 - **Dashboard: Visualizations and filters**
 
