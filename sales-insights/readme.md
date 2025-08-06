@@ -1,39 +1,96 @@
 # Sales Insights – Atliq Hardware
 
-#  Project Objective
-The company's sales head has noticed a **decline in overall sales** and lacks visibility into key performance metrics.  
-This project aims to:
+This project delivers actionable insights into the sales performance of **Atliq Hardware**, addressing concerns around declining sales and lack of visibility into key metrics.
+By leveraging SQL for data exploration and Power BI for visualization, this analysis helps identify revenue patterns, high-performing customers/products, and underperforming markets.
 
-- Explore and query sales data using SQL in MySQL Workbench to uncover trends and patterns
-- Summarize findings to help leadership understand where sales are coming from
-- Identify underperforming areas to support data-driven strategic decisions
+# Key Objectives
 
+- **Explore Sales Data**  
+  Use SQL to uncover transaction patterns and market-specific activity.
 
-# Tools Used
-- **MySQL Workbench** – For querying and exploring the `db_dump.sql` sales dataset
-- **Power BI** – 
-  - **Power Query**: For data cleaning and transformation  
-  - **Data Model**: Relationships and calculations (DAX)  
-  - **Dashboard**: Interactive visualizations and filtering
+- **Measure Performance KPIs**  
+  Calculate and visualize key metrics like total revenue and sales quantity using DAX.
 
-# Power BI Visuals Created
-The final dashboard includes the following visuals:
-- **Top 5 Customers by Revenue**
-- **Top 5 Products by Revenue**
-- **Yearly Revenue Overview**
-- **Monthly Sales and Revenue Trends**
-- **Sales by City**
-- **Revenue by City**
+- **Identify High & Low Performers**  
+  Analyze top customers, products, and cities by revenue.
 
-These visuals allow the business to:
-- Identify high-value customers and products
-- Detect underperforming locations
-- Track performance over time
+- **Visualize Sales Trends**  
+  Track monthly and yearly sales performance for trend analysis.
 
-# Deliverables
-- Cleaned and transformed data using Power Query
-- Calculated metrics (DAX) for revenue and sales KPIs
-- Interactive Power BI dashboard with slicers for drill-downs
+# Data Sources
+
+The project uses a structured database dump containing multiple related tables:
+
+- `customers` – Customer information  
+- `products` – Product catalog  
+- `transactions` – Sales transactions (includes `sales_amount`, `quantity`, `currency`, etc.)  
+- `date` – Calendar table for time-based analysis
+
+#Methodology
+
+### 1.Data Exploration Using SQL (MySQL Workbench)
+
+Performed initial data analysis and validation using SQL queries.
+
+### 2. Data Cleaning & Transformation (Power Query in Power BI)
+Imported SQL tables into Power BI.
+
+Used Power Query for cleaning and transformation:
+
+Removed null/irrelevant fields
+
+Standardized currency values
+
+Converted USD to INR for consistent revenue analysis
+
+###3. Data Modeling & DAX Calculations
+Built relationships between tables: transactions, customers, products, and date
+
+Created DAX measures to support KPI calculations
+
+Key DAX Measures:
+
+Total Revenue 
+
+Sales Quantity 
+
+Monthly Revenue
+
+Revenue by Customer, Product, City, etc.
+
+###4. Dashboard Creation (Power BI)
+Designed an interactive dashboard in Power BI to support drill-down and filtering across dimensions like customer, product, and time.
+
+Visuals Created:
+
+Top 5 Customers by Revenue
+
+Top 5 Products by Revenue
+
+Yearly Revenue Overview
+
+Monthly Sales and Revenue Trends
+
+Sales by City
+
+Revenue by City
+
+Interactive Filters:
+
+Year
+
+Month
+
+# Tools and Technologies
+MySQL Workbench – For querying and exploring structured sales data
+
+Power BI Desktop
+
+Power Query: Data transformation
+
+DAX: KPI calculations
+
+Dashboard: Visualizations and filters
 
 # Data Analysis Using SQL (MySQL Workbench)
 
@@ -81,6 +138,18 @@ and transactions.market_code="Mark001";`
 1.Formula to create norm_amount column
 
 `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
+
+# Results and Insights
+
+The dashboard reveals:
+
+Who are the highest-value customers and products?
+
+Which cities or markets are underperforming?
+
+How has revenue changed month-over-month or year-over-year?
+
+Are sales more dependent on certain products or customers?
 
 
 
