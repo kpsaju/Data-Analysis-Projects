@@ -8,11 +8,6 @@ This project aims to:
 - Summarize findings to help leadership understand where sales are coming from
 - Identify underperforming areas to support data-driven strategic decisions
 
-# Business Challenge
-The company faces difficulties in:
-- Identifying where sales are coming from
-- Spotting underperforming products or regions
-- Tracking monthly and yearly performance
 
 # Tools Used
 - **MySQL Workbench** – For querying and exploring the `db_dump.sql` sales dataset
