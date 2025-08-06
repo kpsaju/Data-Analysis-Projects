@@ -45,7 +45,7 @@ Created DAX measures and columns to calculate:
 Built a fully interactive Power BI dashboard with slicers for:
 - **Month**
 - **Year**
-- **Employee Name**
+
 
 
 # Tools and Technologies
