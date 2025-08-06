@@ -58,10 +58,10 @@ Built a fully interactive Power BI dashboard with slicers for:
 
 The dashboard reveals:
 
-The dominant work mode (in-office vs. WFH) and monthly shifts.
+- **The dominant work mode (in-office vs. WFH) and monthly shifts.**
 
-Overall presence patterns and any irregularities.
+- **Overall presence patterns and any irregularities.**
 
-Trends in Sick Leave and LWP that could require HR review.
+- **Trends in Sick Leave and LWP that could require HR review.**
 
-Employee-specific attendance insights for performance evaluation.
+- **Employee-specific attendance insights for performance evaluation.**
