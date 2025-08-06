@@ -1,0 +1,44 @@
+# Sales Insights – Atliq Hardware
+
+#  Project Objective
+The company's sales head has noticed a **decline in overall sales** and lacks visibility into key performance metrics.  
+This project aims to:
+- Analyze sales data using SQL
+- Clean, summarize, and visualize insights using Excel
+- Help leadership understand where sales are coming from and identify underperforming areas
+
+# Business Challenge
+The company faces difficulties in:
+- Identifying where sales are coming from
+- Spotting underperforming products or regions
+- Tracking monthly and yearly performance
+
+## 🛠️ Tools Used
+- **SQL** – For basic querying and initial data exploration
+- **Power BI** – 
+  - **Power Query**: For data cleaning and transformation  
+  - **Data Model**: Relationships and calculations (DAX)  
+  - **Dashboard**: Interactive visualizations and filtering
+
+#Power BI Visuals Created
+The final dashboard includes the following visuals:
+- **Top 5 Customers by Revenue**
+- **Top 5 Products by Revenue**
+- **Yearly Revenue Overview**
+- **Monthly Sales and Revenue Trends**
+- **Sales by City**
+- **Revenue by City**
+
+These visuals allow the business to:
+- Identify high-value customers and products
+- Detect underperforming locations
+- Track performance over time
+
+#Deliverables
+- Cleaned and transformed data using Power Query
+- Calculated metrics (DAX) for revenue and sales KPIs
+- Interactive Power BI dashboard with slicers for drill-downs
+
+
+
+
