@@ -14,14 +14,14 @@ The company faces difficulties in:
 - Spotting underperforming products or regions
 - Tracking monthly and yearly performance
 
-##  Tools Used
+# Tools Used
 - **MySQL Workbench** – For querying and exploring the `db_dump.sql` sales dataset
 - **Power BI** – 
   - **Power Query**: For data cleaning and transformation  
   - **Data Model**: Relationships and calculations (DAX)  
   - **Dashboard**: Interactive visualizations and filtering
 
-#Power BI Visuals Created
+# Power BI Visuals Created
 The final dashboard includes the following visuals:
 - **Top 5 Customers by Revenue**
 - **Top 5 Products by Revenue**
@@ -35,7 +35,7 @@ These visuals allow the business to:
 - Detect underperforming locations
 - Track performance over time
 
-#Deliverables
+# Deliverables
 - Cleaned and transformed data using Power Query
 - Calculated metrics (DAX) for revenue and sales KPIs
 - Interactive Power BI dashboard with slicers for drill-downs
