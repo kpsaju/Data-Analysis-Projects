@@ -38,60 +38,60 @@ The project uses a structured database dump containing multiple related tables:
 
 - Used Power Query for cleaning and transformation:
 
-- Removed null/irrelevant fields
+- **Removed null/irrelevant fields**
 
-- Standardized currency values
+- **Standardized currency values**
 
-- Converted USD to INR for consistent revenue analysis
+- **Converted USD to INR for consistent revenue analysis**
 
-###3. Data Modeling & DAX Calculations
+### 3. Data Modeling & DAX Calculations
 Built relationships between tables: transactions, customers, products, and date
 
 Created DAX measures to support KPI calculations
 
 Key DAX Measures:
 
-- Total Revenue 
+- **Total Revenue**
 
-- Sales Quantity 
+- **Sales Quantity**
 
-- Monthly Revenue
+- **Monthly Revenue**
 
-- Revenue by Customer, Product, City, etc.
+- **Revenue by Customer, Product, City, etc.**
 
 ### 4. Dashboard Creation (Power BI)
 Designed an interactive dashboard in Power BI to support drill-down and filtering across dimensions like customer, product, and time.
 
 Visuals Created:
 
-- Top 5 Customers by Revenue
+- **Top 5 Customers by Revenue**
 
-- Top 5 Products by Revenue
+- **Top 5 Products by Revenue**
 
-- Yearly Revenue Overview
+- **Yearly Revenue Overview**
 
-- Monthly Sales and Revenue Trends
+- **Monthly Sales and Revenue Trends**
 
-- Sales by City
+- **Sales by City**
 
-- Revenue by City
+- **Revenue by City**
 
 Interactive Filters:
 
-- Year
+- **Year**
 
-- Month
+- **Month**
 
 # Tools and Technologies
 MySQL Workbench – For querying and exploring structured sales data
 
-- Power BI Desktop
+- **Power BI Desktop**
 
-- Power Query: Data transformation
+- **Power Query: Data transformation**
 
-- DAX: KPI calculations
+- ** DAX: KPI calculations**
 
-- Dashboard: Visualizations and filters
+- **Dashboard: Visualizations and filters**
 
 # Data Analysis Using SQL (MySQL Workbench)
 
@@ -144,13 +144,13 @@ and transactions.market_code="Mark001";`
 
 The dashboard reveals:
 
-Who are the highest-value customers and products?
+- **Who are the highest-value customers and products?**
 
-Which cities or markets are underperforming?
+- **Which cities or markets are underperforming?**
 
-How has revenue changed month-over-month or year-over-year?
+- **How has revenue changed month-over-month or year-over-year?**
 
-Are sales more dependent on certain products or customers?
+- **Are sales more dependent on certain products or customers?**
 
 
 
