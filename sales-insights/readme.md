@@ -13,7 +13,7 @@ The company faces difficulties in:
 - Spotting underperforming products or regions
 - Tracking monthly and yearly performance
 
-## 🛠️ Tools Used
+##  Tools Used
 - **MySQL Workbench** – For querying and exploring the `db_dump.sql` sales dataset
 - **Power BI** – 
   - **Power Query**: For data cleaning and transformation  
