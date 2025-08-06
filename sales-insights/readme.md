@@ -3,9 +3,10 @@
 #  Project Objective
 The company's sales head has noticed a **decline in overall sales** and lacks visibility into key performance metrics.  
 This project aims to:
-- Analyze sales data using SQL
-- Clean, summarize, and visualize insights using Excel
-- Help leadership understand where sales are coming from and identify underperforming areas
+
+- Explore and query sales data using SQL in MySQL Workbench to uncover trends and patterns
+- Summarize findings to help leadership understand where sales are coming from
+- Identify underperforming areas to support data-driven strategic decisions
 
 # Business Challenge
 The company faces difficulties in:
